@@ -1,0 +1,21 @@
+{
+  "name": "pomelo-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node bin/webpack.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "晓月清岚",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.7",
+    "tapable": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-env": "^7.23.9"
+  }
+}
